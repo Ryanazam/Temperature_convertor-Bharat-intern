@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .App{
+  
+    background-color: rgb(158, 243, 0);
+  }
+  
+  .main{
+  
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+   
+  
+    
+  }
+  .heading{
+    margin-bottom: 2rem;
+    color: rgb(20, 158, 158);
+    font-size: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .main-container{
+  
+    display: flex;
+  
+    gap: 4rem;
+    
+    
+  }
+  
+  .common-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+    align-items: baseline;
+  }
+  .input{
+  
+    width: 8rem;
+    height: 3rem;
+   outline: none;
+    border: none; 
+    background-color: rgb(255, 236, 26);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 4px;
+    border: 2px solid gray;
+    
+  }
+  .display-container{
+    background-color: rgb(255, 236, 26);
+    width: 8rem;
+    min-width:fit-content;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: none;
+    border: 2px solid gray;
+    
+    
+  
+  }
+  .sub-head{
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .btn{
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    background-color: rgb(2, 115, 115);
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .btn:hover{
+    color: rgb(205, 107, 10);
+  
+  }
